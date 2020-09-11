@@ -22,6 +22,7 @@ export default {
 <style lang="scss" scoped>
 .dashboard {
   &-container {
+    display: none;
     margin: 30px;
   }
   &-text {
