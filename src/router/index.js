@@ -51,7 +51,7 @@ export const constantRoutes = [
       path: 'dashboard',
       name: 'Dashboard',
       component: () => import('@/views/dashboard/index'),
-      meta: { title: 'Dashboard', icon: 'dashboard' }
+      meta: { title: '仪表盘', icon: 'dashboard' }
     }]
   }
 ]
@@ -72,13 +72,13 @@ export const asyncRoutes = [
         path: 'table',
         name: 'Table',
         component: () => import('@/views/table/index'),
-        meta: { title: 'Table', icon: 'table'}
+        meta: { title: 'Table', icon: 'table' }
       },
       {
         path: 'tree',
         name: 'Tree',
         component: () => import('@/views/tree/index'),
-        meta: { title: 'Tree', icon: 'tree'}
+        meta: { title: 'Tree', icon: 'tree' }
       }
     ]
   },
@@ -86,7 +86,7 @@ export const asyncRoutes = [
   {
     path: '/form',
     component: Layout,
-    meta: {roles: ['editor']},
+    meta: { roles: ['editor'] },
     children: [
       {
         path: 'index',
